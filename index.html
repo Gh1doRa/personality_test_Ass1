@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personality Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Personality Test</h1>
+        <div id="quiz">
+            <div class="question">
+                <p>1. How do you prefer to spend your free time?</p>
+                <input type="radio" name="q1" value="introvert"> Reading a book<br>
+                <input type="radio" name="q1" value="extrovert"> Going to a party<br>
+            </div>
+            <div class="question">
+                <p>2. How do you approach problem-solving?</p>
+                <input type="radio" name="q2" value="analytical"> Analyze the situation<br>
+                <input type="radio" name="q2" value="creative"> Think outside the box<br>
+            </div>
+            <div class="question">
+                <p>3. How do you make decisions?</p>
+                <input type="radio" name="q3" value="thinking"> Based on logic<br>
+                <input type="radio" name="q3" value="feeling"> Based on emotions<br>
+            </div>
+            <button onclick="calculateResult()">Submit</button>
+        </div>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
